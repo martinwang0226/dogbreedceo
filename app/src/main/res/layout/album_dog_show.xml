@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/back_icon"
+        android:src="@drawable/back_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/back_icon"
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>
